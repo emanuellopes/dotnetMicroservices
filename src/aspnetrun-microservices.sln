@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Or
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Domain", "Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{5A5FD369-B555-40E7-8C9E-C3D1C631EFB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{B938F58B-DC99-4E74-8909-99C47D5AF5FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,7 @@ Global
 		{8FD8DA6F-23AE-4C7E-A7B0-47F02CF8B438} = {24937326-F5A5-4C13-B5FE-19F9F78DB39D}
 		{9DC246BC-C1CF-49D8-843D-C67AEDD87AD7} = {8FD8DA6F-23AE-4C7E-A7B0-47F02CF8B438}
 		{5A5FD369-B555-40E7-8C9E-C3D1C631EFB4} = {8FD8DA6F-23AE-4C7E-A7B0-47F02CF8B438}
+		{B938F58B-DC99-4E74-8909-99C47D5AF5FF} = {8FD8DA6F-23AE-4C7E-A7B0-47F02CF8B438}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D0CC8354-1092-430E-A557-FD6BD883A572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -64,5 +67,9 @@ Global
 		{5A5FD369-B555-40E7-8C9E-C3D1C631EFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A5FD369-B555-40E7-8C9E-C3D1C631EFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A5FD369-B555-40E7-8C9E-C3D1C631EFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B938F58B-DC99-4E74-8909-99C47D5AF5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B938F58B-DC99-4E74-8909-99C47D5AF5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B938F58B-DC99-4E74-8909-99C47D5AF5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B938F58B-DC99-4E74-8909-99C47D5AF5FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
