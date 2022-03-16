@@ -5,7 +5,7 @@ namespace Basket.API.Entities
 {
     public class ShoppingCart
     {
-        public string Username { get; set; }
+        public string UserName { get; set; }
 
         public List<ShoppingCartItem> Items { get; set; } = new();
 
@@ -15,7 +15,7 @@ namespace Basket.API.Entities
 
         public ShoppingCart(string username)
         {
-            Username = username;
+            UserName = username;
         }
 
         public decimal TotalPrice
